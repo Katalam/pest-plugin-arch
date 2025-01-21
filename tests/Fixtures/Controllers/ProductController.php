@@ -6,12 +6,12 @@ namespace Tests\Fixtures\Controllers;
 
 use Tests\Fixtures\Models\Product;
 
-final readonly class ProductController
+final class ProductController
 {
     public function index(): array
     {
         return [
-            new Product(),
+            new Product,
         ];
     }
 }
